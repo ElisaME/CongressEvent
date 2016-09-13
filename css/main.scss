@@ -1,4 +1,43 @@
+/*---------------------------- Variables*/
+/*Colores*/
+$darkBG: #4B6075;
+$secondaryColor:#f3702a;
+$contrast1:#d34aee;
+$contrast2:#03d968;
+$contrast3:#24f8fb;
+
+/*-----------------------------Global*/
+/*Buttons*/
+.btn-general{
+	border:none;
+	border-radius: 3px;
+	padding: 2%;
+}
+.action1{
+	background-color: $contrast1;
+	color: #ffffff;
+}
 /*------------------------------Navbar*/
 .navbar{
 	margin-bottom: 0 !important;
+}
+/*-----------------------------Imagen Incio*/
+#bg-image{
+	background-image: url(../img/event-1597531_1280.jpg);
+	height: 400px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+/*-----------------------------Intro section*/
+#intro{
+	padding:30px 0px;
+	.welcomeImage{
+		max-width: 450px;
+		margin: 0 auto;
+		padding: 5%;
+	}
+	p{
+		line-height: 150%;
+	}
 }

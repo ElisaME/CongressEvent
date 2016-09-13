@@ -1,5 +1,36 @@
+/*---------------------------- Variables*/
+/*Colores*/
+/*-----------------------------Global*/
+/*Buttons*/
+.btn-general {
+  border: none;
+  border-radius: 3px;
+  padding: 2%; }
+
+.action1 {
+  background-color: #d34aee;
+  color: #ffffff; }
+
 /*------------------------------Navbar*/
 .navbar {
   margin-bottom: 0 !important; }
+
+/*-----------------------------Imagen Incio*/
+#bg-image {
+  background-image: url(../img/event-1597531_1280.jpg);
+  height: 400px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center; }
+
+/*-----------------------------Intro section*/
+#intro {
+  padding: 30px 0px; }
+  #intro .welcomeImage {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 5%; }
+  #intro p {
+    line-height: 150%; }
 
 /*# sourceMappingURL=main.css.map */
