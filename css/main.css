@@ -2,15 +2,29 @@
 /*Colores*/
 /*Fonts*/
 /*-----------------------------Global*/
+body {
+  font-family: "Open Sans", sans-serif; }
+
 /*Buttons*/
 .btn-general {
   border: none;
   border-radius: 3px;
-  padding: 2%; }
+  padding: 1% 2%;
+  color: #ffffff; }
 
 .action1 {
-  background-color: #d34aee;
-  color: #ffffff; }
+  background-color: #d34aee; }
+
+.action2 {
+  background-color: #f3702a; }
+
+.action3 {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 1% 2%;
+  border: 1px solid #fff;
+  font-size: 12px;
+  text-transform: uppercase; }
 
 /*------------------------------Navbar*/
 .navbar {
@@ -95,5 +109,61 @@
       font-weight: 400;
       color: #fff;
       font-size: 4em; }
+
+/*---------------------------Speakers*/
+/* Global */
+#speakers img {
+  max-width: 100%; }
+
+/*-----------------------------Agenda*/
+#agenda .tab {
+  margin-top: 30px; }
+#agenda .nav-tabs li {
+  width: 50%;
+  text-align: center; }
+#agenda .table {
+  margin-bottom: 0px !important; }
+
+/*-------------------------------Prices*/
+#tickets {
+  color: #fff;
+  margin-top: 30px;
+  position: relative; }
+  #tickets .bg-image3 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-image: url(../img/wtcTijuana2.jpeg);
+    -ms-background-position: center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%; }
+    #tickets .bg-image3:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom right, #03d968, #03d968);
+      opacity: .8; }
+  #tickets .ticketsPrices {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px; }
+  #tickets .price {
+    background-color: #4B6075;
+    padding: 5%; }
+  #tickets .titlePrice {
+    background-color: #4B6075;
+    padding: 5%;
+    opacity: 0.6; }
+  #tickets .bold {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em; }
+  #tickets .description {
+    padding: 5%;
+    border: 1px solid #bdbdbd;
+    font-size: 16px; }
 
 /*# sourceMappingURL=main.css.map */
