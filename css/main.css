@@ -28,6 +28,7 @@ body {
 
 /*------------------------------Navbar*/
 .navbar {
+  background-color: #337ab7 !important;
   margin-bottom: 0 !important;
   background-color: #4B6075;
   border-bottom: none; }
@@ -40,7 +41,7 @@ body {
   .navbar .logo {
     max-width: 200px; }
 
-/*-----------------------------Imagen Incio*/
+/*-----------------------------Carousel*/
 #myCarousel .carousel {
   height: 500px; }
 #myCarousel .carousel-inner img {
