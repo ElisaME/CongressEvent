@@ -38,7 +38,7 @@ body{
 /*------------------------------Navbar*/
 .navbar{
 	margin-bottom: 0 !important;
-	background-color: $contrast4;
+	background-color: $darkBG;
 	border-bottom: none;
 	a{
 		color: #fff !important;
@@ -49,28 +49,22 @@ body{
 	.navbar-nav>.active>a{
 		background-color: $secondaryColor !important;
 	}
+	.logo{
+		max-width: 200px;
+	}
 }
 /*-----------------------------Imagen Incio*/
-#bg-image{
-	background-image: url(../img/event-1597531_1280.jpg);
-	height: 500px;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	z-index: -1;
-	position: relative;
-	.bg-filter{
-		background-color:rgba(243,112,42,0.57);
-		/*rgba(75,96,117,0.8)*/
+#myCarousel{
+	.carousel{
 		height: 500px;
-		position: absolute;
-		z-index: 1;
-		width: 100%;
 	}
-	.front{
-		position: absolute;
+	.carousel-inner img{
+		width:100%;
+		max-height: 500px !important;
+	}
+	.carousel-caption{
+		margin-bottom: 110px;
 		z-index: 2;
-		padding: 10%;
 	}
 	.title{
 		font-size: 6em;
@@ -85,6 +79,23 @@ body{
 			font-weight: 300;
 			font-size: 40px;
 		}
+	}
+	.filter{
+		position: relative;
+	}
+	.bg-filter1{
+		background-color:rgba(243,112,42,0.57);
+		height: 500px;
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+	}
+	.bg-filter2{
+		background-color:rgba(36,248,251,0.57);
+		height: 500px;
+		position: absolute;
+		z-index: 1;
+		width: 100%;
 	}
 }
 /*-----------------------------Intro section*/
