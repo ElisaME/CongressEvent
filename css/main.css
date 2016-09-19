@@ -136,8 +136,17 @@ body {
 #agenda .nav-tabs li {
   width: 50%;
   text-align: center; }
-#agenda .table {
-  margin-bottom: 0px !important; }
+#agenda thead tr {
+  background-color: #f3702a;
+  color: #fff; }
+  #agenda thead tr th {
+    padding: 2%; }
+#agenda tr {
+  background-color: #fff;
+  text-transform: uppercase; }
+  #agenda tr td {
+    padding: 2%;
+    text-align: left; }
 
 /*-------------------------------Prices*/
 #tickets {
@@ -180,5 +189,15 @@ body {
     padding: 5%;
     border: 1px solid #bdbdbd;
     font-size: 16px; }
+
+/*Footer*/
+footer {
+  background-color: #337ab7;
+  padding: 2% 2% 1% 2%;
+  color: #fff; }
+  footer .socialIcons .fa-circle {
+    color: #fff; }
+  footer .socialIcons .fa-inverse {
+    color: #337ab7; }
 
 /*# sourceMappingURL=main.css.map */
