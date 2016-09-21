@@ -242,7 +242,15 @@ body{
 	}
 }
 /*Map*/
-
+#location{
+	padding: 2% 0;
+	h3{
+		color:$secondaryColor;
+	}
+	.facilities{
+		margin-top:2%;
+	}
+}
 /*Footer*/
 footer{
 	background-color: $contrast4;
