@@ -42,8 +42,14 @@ body {
     max-width: 100px; }
 
 .secondBG {
-  /*background-color: $contrast4 !important;*/
-  background-image: linear-gradient(to bottom right, #337ab7, #53cac9); }
+  background-color: #ffffff !important;
+  /*background-image:linear-gradient(to bottom right,$contrast4,#53cac9);*/ }
+  .secondBG a {
+    color: #f3702a !important; }
+  .secondBG li a:hover {
+    color: #fff !important; }
+  .secondBG .navbar-nav > .active > a {
+    color: #fff !important; }
 
 /*-----------------------------Carousel*/
 #myCarousel .carousel {

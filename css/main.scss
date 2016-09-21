@@ -55,8 +55,17 @@ body{
 	}
 }
 .secondBG{
-	/*background-color: $contrast4 !important;*/
-	background-image:linear-gradient(to bottom right,$contrast4,#53cac9);
+	background-color: #ffffff !important;
+	a{
+		color:$secondaryColor !important;
+	}
+	li a:hover{
+		color:#fff !important;
+	}
+	.navbar-nav>.active>a{
+		color: #fff !important;
+	}
+	/*background-image:linear-gradient(to bottom right,$contrast4,#53cac9);*/
 }
 /*-----------------------------Carousel*/
 #myCarousel{
