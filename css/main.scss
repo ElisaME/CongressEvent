@@ -37,7 +37,7 @@ body{
 }
 /*------------------------------Navbar*/
 .navbar{
-	background-color:#337ab7 !important;
+	background-color:transparent !important;
 	margin-bottom: 0 !important;
 	background-color: $darkBG;
 	border-bottom: none;
@@ -51,8 +51,12 @@ body{
 		background-color: $secondaryColor !important;
 	}
 	.logo{
-		max-width: 200px;
+		max-width: 100px;
 	}
+}
+.secondBG{
+	/*background-color: $contrast4 !important;*/
+	background-image:linear-gradient(to bottom right,$contrast4,#53cac9);
 }
 /*-----------------------------Carousel*/
 #myCarousel{
@@ -92,7 +96,7 @@ body{
 		width: 100%;
 	}
 	.bg-filter2{
-		background-color:rgba(36,248,251,0.57);
+		background-color:rgba(51,122,183,0.57);
 		height: 500px;
 		position: absolute;
 		z-index: 1;
@@ -214,8 +218,8 @@ body{
 		}
 	}
 	.ticketsPrices{
-		    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+    	border-top-left-radius: 5px;
 	}
 	.price{
 		background-color: $contrast4;

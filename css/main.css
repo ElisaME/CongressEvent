@@ -28,7 +28,7 @@ body {
 
 /*------------------------------Navbar*/
 .navbar {
-  background-color: #337ab7 !important;
+  background-color: transparent !important;
   margin-bottom: 0 !important;
   background-color: #4B6075;
   border-bottom: none; }
@@ -39,7 +39,11 @@ body {
   .navbar .navbar-nav > .active > a {
     background-color: #f3702a !important; }
   .navbar .logo {
-    max-width: 200px; }
+    max-width: 100px; }
+
+.secondBG {
+  /*background-color: $contrast4 !important;*/
+  background-image: linear-gradient(to bottom right, #337ab7, #53cac9); }
 
 /*-----------------------------Carousel*/
 #myCarousel .carousel {
@@ -71,7 +75,7 @@ body {
   z-index: 1;
   width: 100%; }
 #myCarousel .bg-filter2 {
-  background-color: rgba(36, 248, 251, 0.57);
+  background-color: rgba(51, 122, 183, 0.57);
   height: 500px;
   position: absolute;
   z-index: 1;
