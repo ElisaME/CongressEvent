@@ -141,22 +141,58 @@ body {
   max-width: 100%; }
 
 /*-----------------------------Agenda*/
-#agenda .tab {
-  margin-top: 30px; }
-#agenda .nav-tabs li {
-  width: 50%;
-  text-align: center; }
-#agenda thead tr {
-  background-color: #f3702a;
-  color: #fff; }
-  #agenda thead tr th {
-    padding: 2%; }
-#agenda tr {
-  background-color: #fff;
-  text-transform: uppercase; }
-  #agenda tr td {
-    padding: 2%;
-    text-align: left; }
+#agenda {
+  padding: 2%; }
+  #agenda .tab {
+    margin-top: 30px; }
+  #agenda .nav-tabs li {
+    width: 50%;
+    text-align: center; }
+    #agenda .nav-tabs li a {
+      padding: 3% 0;
+      vertical-align: middle;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: #f3702a; }
+  #agenda .active a {
+    background-color: #f3702a;
+    color: #fff !important; }
+  #agenda thead tr {
+    background-color: #337ab7;
+    color: #fff; }
+    #agenda thead tr th {
+      padding: 2%; }
+  #agenda .well {
+    padding: 10px; }
+    #agenda .well .table {
+      margin-bottom: 0; }
+  #agenda tr {
+    background-color: #fff;
+    text-transform: uppercase; }
+    #agenda tr td {
+      padding: 2%;
+      text-align: left;
+      vertical-align: middle; }
+  #agenda .img-frame {
+    border-radius: 50%;
+    border: 3px solid #03d968;
+    width: 70px;
+    height: 70px;
+    -webkit-background-size: contain;
+    background-size: contain; }
+  #agenda .speaker1 {
+    background-image: url(../img/leoncio.jpg); }
+  #agenda .speaker2 {
+    background-image: url(../img/alma.jpg); }
+  #agenda .speaker3 {
+    background-image: url(../img/jose.jpg); }
+  #agenda .speaker4 {
+    background-image: url(../img/luis.jpg); }
+  #agenda .speaker5 {
+    background-image: url(../img/isela.jpg); }
+  #agenda .speaker6 {
+    background-image: url(../img/jorge.jpg); }
 
 /*-------------------------------Prices*/
 #tickets {

@@ -177,19 +177,39 @@ body{
 }
 /*-----------------------------Agenda*/
 #agenda{
+	padding:2%;
 	.tab{
 		margin-top: 30px;
 	}
 	.nav-tabs li{
 		width: 50%;
 		text-align: center;
+		a{
+			padding: 3% 0;
+			vertical-align: middle;
+			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 2px;
+			color: $secondaryColor;
+		}
+	}
+	.active{
+		a{
+			background-color: $secondaryColor;
+			color: #fff!important;
+		}
 	}
 	thead tr{
-		background-color: $secondaryColor;
+		background-color: $contrast4;
 		color: #fff;
-
 		th{
 			padding: 2%;
+		}
+	}
+	.well{
+		padding: 10px;
+		.table{
+			margin-bottom: 0;
 		}
 	}
 	tr{
@@ -198,7 +218,35 @@ body{
 		td{
 			padding: 2%;
 			text-align: left;
+			vertical-align: middle;
 		}
+	}
+	.img-frame{
+		border-radius: 50%;
+		border: 3px solid $contrast2;
+		width: 70px;
+		height: 70px;
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+	.speaker1{
+		background-image: url(../img/leoncio.jpg);
+		
+	}
+	.speaker2{
+		background-image: url(../img/alma.jpg);
+	}
+	.speaker3{
+		background-image: url(../img/jose.jpg);
+	}
+	.speaker4{
+		background-image: url(../img/luis.jpg);
+	}
+	.speaker5{
+		background-image: url(../img/isela.jpg);
+	}
+	.speaker6{
+		background-image: url(../img/jorge.jpg);
 	}
 }
 /*-------------------------------Prices*/
