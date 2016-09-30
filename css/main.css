@@ -188,11 +188,11 @@ body {
   #agenda .speaker3 {
     background-image: url(../img/jose.jpg); }
   #agenda .speaker4 {
-    background-image: url(../img/luis.jpg); }
+    background-image: url(); }
   #agenda .speaker5 {
     background-image: url(../img/isela.jpg); }
   #agenda .speaker6 {
-    background-image: url(../img/jorge.jpg); }
+    background-image: url(../img/jorgeMtz.jpg); }
 
 /*-------------------------------Prices*/
 #tickets {
