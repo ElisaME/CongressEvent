@@ -136,6 +136,7 @@ body{
 	-ms-background-position:center;
 	background-position:center;
 	background-size: cover;
+	background-attachment: fixed;
 	width: 100%;
 	height:100%;
 	&:before{
@@ -149,26 +150,35 @@ body{
 		opacity: .8; 
 	}
 	.data{
-		text-align: center;
-		padding: 3%;
+		text-align: left;
+		padding-bottom: 7%;
+    	padding-top: 7%;
+		.dataDescription{
+			display: inline-block;
+			text-align: left;
+			margin-left: 26px;
+		}
 		.category{
-			font-family: $paragraph;
+			font-family: $titles;
 			font-weight: 400;
 			color: #fff;
 			padding-top: 2%;
-			font-size: 1.5em;
+			font-size: 20px;
+			text-transform: uppercase;
 		}
 		.iconData{
 			color: #fff;
+			display: inline-block;
 			i{
 				margin-top: 2%;
 			}
 		}
-		.number{
-			font-family: $titles;
+		.info{
+			font-family: $paragraph;
 			font-weight: 400;
 			color: #fff;
-			font-size:4em;
+			font-size:18px;
+			text-transform: uppercase;
 		}
 	}	
 }

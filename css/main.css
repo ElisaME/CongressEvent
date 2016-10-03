@@ -108,6 +108,7 @@ body {
   -ms-background-position: center;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
   height: 100%; }
   .bg-image2:before {
@@ -120,23 +121,31 @@ body {
     background-image: linear-gradient(to bottom right, #24f8fb, #f3702a);
     opacity: .8; }
   .bg-image2 .data {
-    text-align: center;
-    padding: 3%; }
+    text-align: left;
+    padding-bottom: 7%;
+    padding-top: 7%; }
+    .bg-image2 .data .dataDescription {
+      display: inline-block;
+      text-align: left;
+      margin-left: 26px; }
     .bg-image2 .data .category {
-      font-family: "Open Sans", sans-serif;
-      font-weight: 400;
-      color: #fff;
-      padding-top: 2%;
-      font-size: 1.5em; }
-    .bg-image2 .data .iconData {
-      color: #fff; }
-      .bg-image2 .data .iconData i {
-        margin-top: 2%; }
-    .bg-image2 .data .number {
       font-family: "Montserrat", sans-serif;
       font-weight: 400;
       color: #fff;
-      font-size: 4em; }
+      padding-top: 2%;
+      font-size: 20px;
+      text-transform: uppercase; }
+    .bg-image2 .data .iconData {
+      color: #fff;
+      display: inline-block; }
+      .bg-image2 .data .iconData i {
+        margin-top: 2%; }
+    .bg-image2 .data .info {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      color: #fff;
+      font-size: 18px;
+      text-transform: uppercase; }
 
 /*---------------------------Speakers*/
 /* Global */
