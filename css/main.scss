@@ -50,8 +50,9 @@ body{
 	.navbar-nav>.active>a{
 		background-color: $secondaryColor !important;
 	}
-	.logo{
-		max-width: 100px;
+	.logo{	
+    	max-width: 200px;
+    	margin-top: -22px;
 	}
 }
 .secondBG{
@@ -344,6 +345,14 @@ footer{
 		}
 		.fa-inverse{
 			color: $contrast4;
+		}
+	}
+}
+/*Media queries*/
+@media (max-width: 762px){
+	#numbers{
+		.data{
+			margin-left: 12%;
 		}
 	}
 }

@@ -39,7 +39,8 @@ body {
   .navbar .navbar-nav > .active > a {
     background-color: #f3702a !important; }
   .navbar .logo {
-    max-width: 100px; }
+    max-width: 200px;
+    margin-top: -22px; }
 
 .secondBG {
   background-color: #ffffff !important;
@@ -275,5 +276,10 @@ footer {
     color: #fff; }
   footer .socialIcons .fa-inverse {
     color: #337ab7; }
+
+/*Media queries*/
+@media (max-width: 762px) {
+  #numbers .data {
+    margin-left: 12%; } }
 
 /*# sourceMappingURL=main.css.map */
